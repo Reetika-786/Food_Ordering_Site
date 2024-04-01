@@ -1,0 +1,16 @@
+body{
+    background-color: rgb(0, 0, 0);
+}
+h1{
+    color:rgb(255, 135, 37);
+    text-align: center;
+}
+h2{
+    color:rgb(251, 94, 55);
+    text-align: center;
+}
+.tq{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
