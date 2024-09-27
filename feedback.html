@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>feedback</title>
+    <link rel="stylesheet" href="../CSS/feedback.css">
+    <link rel="icon" href="../images/burger-removebg-preview.png" type="image/icon type">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+</head>
+
+<body>
+<header>
+<nav class="navbar">
+            
+        <a  href="../HTML/home.html">
+        <button type="button" class="btn btn-primary btn-lg">Home</button></a>
+        <a href="../HTML/dishes.html">
+        <button type="button" class="btn btn-secondary btn-lg">Dishes</button>
+        <a href="../HTML/about.html">
+        <button type="button"  class="btn btn-success btn-lg">Contact Us</button></a>
+        <a href="../HTML/feedback.html" id="feedback">
+        <button type="button" class="btn btn-danger btn-lg">Feedback</button></a>
+        <a href="../HTML/ksbakers.html">
+        <button type="button" class="btn btn-warning btn-lg">Orders</button></a>
+    </nav>
+</header>
+<section></section>
+<div class="container">
+<form action="" onsubmit="returnValidationform">
+<h1>Give your feedback</h1>
+<div class="id" >
+<input type="text" placeholder=" Full name" id="username">
+<i class="far fa-envelop"></i>
+<p id="userError"></p>
+</div>
+<div class="id" >
+<input type="email" placeholder="Enter your email address" id="password">
+<i class="far fa-envelop"></i>
+<p id="passError"></p>
+</div>
+<textarea cols="15" rows="5" placeholder="Enter your opinion here..."></textarea>
+<button onclick="alert('Your form is submitted!')">Send</button>
+</form>
+</div>
+<script src="../JS/feedback.js"></script>
+</body>
+</html>
